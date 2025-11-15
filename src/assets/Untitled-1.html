@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trisquel Drawing</title>
+    <style>
+        body { display: flex; justify-content: center; align-items: center; height: 100vh; margin: 0; background-color: #f0f0f0; }
+        canvas { background: white; border: 1px solid black; }
+    </style>
+</head>
+<body>
+    <canvas id="trisquelCanvas" width="500" height="500"></canvas>
+    <script>
+        const canvas = document.getElementById("trisquelCanvas");
+        const ctx = canvas.getContext("2d");
+
+        function drawTriskele(x, y, radius) {
+            for (let i = 0; i < 3; i++) {
+                ctx.beginPath();
+                const angle = (i * 120) * Math.PI / 180;
+                const cx = x + Math.cos(angle) * radius * 0.5;
+                const cy = y + Math.sin(angle) * radius * 0.5;
+                ctx.arc(cx, cy, radius * 0.4, angle, angle + Math.PI * 1.5);
+                ctx.stroke();
+            }
+        }
+
+        drawTriskele(250, 250, 100);
+    </script>
+</body>
+</html>

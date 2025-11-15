@@ -1,0 +1,43 @@
+[
+    {
+      "name": "Registrar Incidente",
+      "image": "/img/ciberseguridad/ciber-registrar-incidente.webp",
+      "description": "Permite reportar cualquier incidente de ciberseguridad a través de un formulario centralizado, asegurando la trazabilidad y una respuesta rápida.",
+      "button_active": true,
+      "button_text": "Ir a Formulario",
+      "button_route": "https://forms.office.com/Pages/ResponsePage.aspx?id=mYxR2TU8Sk-kOWV9gchmebBuGA5pJ39KsHr0AI-Ep4pUQkxSVjVWUTNGUTQySjEwUjU5REsyQjY0My4u"
+    },
+    {
+      "name": "Políticas de contraseñas",
+      "image": "/img/ciberseguridad/ciber-politicas-password.webp",
+      "description": "Este documento detalla el procedimiento que deben seguir los usuarios para cumplir con los requisitos mínimos de complejidad, periodicidad de cambio y buenas prácticas asociadas al manejo de credenciales, fortaleciendo así la protección de los sistemas y servicios tecnológicos.",
+      "button_active": false,
+      "button_text": "",
+      "button_route": ""
+    },
+    {
+      "name": "Programa de Concientización",
+      "image": "/img/ciberseguridad/ciber-concientizacion.webp",
+      "description": "La Universidad Bernardo O'Higgins implementa la plataforma KnowBe4 como herramienta clave para fortalecer la cultura de ciberseguridad en la comunidad universitaria. Esta solución permite capacitar a estudiantes, académicos y colaboradores a través de simulaciones de phishing, entrenamientos interactivos y campañas de concientización, con el objetivo de reducir riesgos humanos frente a amenazas digitales.",
+      "button_active": false,
+      "button_text": "Aprender más",
+      "button_route": "/phishing-info"
+    },
+    {
+      "name": "Antivirus Corporativo",
+      "image": "/img/ciberseguridad/ciber-antivirus.webp",
+      "description": "La Universidad Bernardo O'Higgins cuenta con Sophos como solución antivirus institucional, orientada a proteger los equipos y datos frente a amenazas digitales como virus, malware, ransomware y accesos no autorizados. Esta herramienta de seguridad está disponible para su instalación en los dispositivos institucionales, garantizando una defensa activa y en tiempo real que contribuye a la integridad de los sistemas y la continuidad operativa.",
+      "button_active": false,
+      "button_text": "",
+      "button_route": ""
+    },
+    {
+      "name": "Reportes",
+      "image": "/img/ciberseguridad/ciber-reportes.webp",
+      "description": "Esta herramienta permite visualizar reportes estratégicos sobre el estado de la ciberseguridad institucional. Favor ingrese sus credenciales institucionales:”",
+      "button_active": true,
+      "button_text": "Login",
+      "button_route": "/login"
+    }
+  ]
+  

@@ -1,0 +1,50 @@
+[
+  {
+    "name": "Seguimiento Proyectos TI",
+    "image": "/img/servicios/servicio-seguimiento-proyectos.webp",
+    "description": "Esta herramienta permite monitorear el avance, estado y cumplimiento de los proyectos TI en desarrollo, facilitando una gestión clara y colaborativa. Para acceder, ingrese con sus credenciales institucionales.",
+    "button_active": true,
+    "button_text": "Log In",
+    "button_route": "/login"
+  },
+  {
+    "name": "Mesa de Ayuda TI",
+    "image": "/img/servicios/servicio-mesa-ayuda.webp",
+    "description": "La Mesa de Ayuda TI es el canal oficial para proporcionar soporte técnico a los usuarios de la Universidad. Para solicitar asistencia, ingresa a: <a href='https://serviciosti.ubo.cl' target='_blank'>serviciosti.ubo.cl</a>",
+    "button_active": false,
+    "button_text": "Generar Ticket",
+    "button_route": "/ticket"
+  },
+  {
+    "name": "Consultoría TI",
+    "image": "/img/servicios/servicio-consultoria.webp",
+    "description": "Solicita asesoría técnica o cotizaciones de insumos tecnológicos",
+    "button_active": true,
+    "button_text": "Formulario de Solicitud",
+    "button_route": "https://forms.office.com/r/BVXuAkBDZF?origin=lprLink"
+  },
+  {
+    "name": "Conectividad WI-FI UBO",
+    "image": "/img/servicios/servicio-wifi.webp",
+    "description": "<div style=\"font-size: 1rem;\">La Universidad Bernardo O'Higgins pone a disposición de su comunidad universitaria acceso a la red Wi-Fi, reafirmando su compromiso con la educación de calidad y el desarrollo de la investigación. Este servicio tiene como propósito facilitar la conexión a plataformas académicas, recursos digitales y herramientas de comunicación para estudiantes, académicos y colaboradores.</div><br><div style=\"display: flex; gap: 18px; font-size: 0.9rem;\"> <div style=\"flex: 1; background-color: #f5f9fc; padding: 8px; border-radius: 8px; border: 1px solid #cce4f6;\"> <strong style=\"color: #0d2c5b;\">Red de Invitados</strong><br /> <span><strong>SSID:</strong> Invitado</span><br /> <span><strong>Clave:</strong> invitado</span> </div> <div style=\"flex: 1; background-color: #f5f9fc; padding: 8px; border-radius: 8px; border: 1px solid #cce4f6;\"> <strong style=\"color: #0d2c5b;\">Red Administrativa</strong><br /> <span><strong>SSID:</strong> su usuario de correo sin @ubo.cl</span><br /> <span><strong>Clave:</strong> misma de su correo corporativo</span> </div> </div>",
+    "button_active": false,
+    "button_text": "",
+    "button_route": ""
+  },
+  {
+    "name": "Software y Aplicaciones",
+    "image": "/img/servicios/servicio-software.webp",
+    "description": "La Universidad Bernardo O'Higgins pone a disposición de su comunidad universitaria un canal de acceso seguro para la descarga de las distintas aplicaciones utilizadas en los ámbitos académico y administrativo. Este servicio tiene como objetivo facilitar la instalación de herramientas esenciales para estudiantes, docentes y personal institucional, asegurando su correcto funcionamiento y compatibilidad.",
+    "button_active": false,
+    "button_text": "Softwares",
+    "button_route": "/#"
+  },
+  {
+    "name": "Base de Conocimiento",
+    "image": "/img/servicios/servicio-base-conocimiento.webp",
+    "description": "La Universidad Bernardo O'Higgins dispone de una Base de Conocimiento diseñada para centralizar y facilitar el acceso a información útil sobre servicios, sistemas y procesos tecnológicos. Este recurso está orientado a apoyar a estudiantes, académicos y colaboradores en la resolución de dudas frecuentes, promoviendo la autogestión y el uso eficiente de las plataformas institucionales.",
+    "button_active": false,
+    "button_text": "Manuales y Procedimientos",
+    "button_route": "/#"
+  }
+]

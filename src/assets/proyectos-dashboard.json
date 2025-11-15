@@ -1,0 +1,190 @@
+{
+  "user": [
+    {
+      "id": 1,
+      "name": "Sistema de Gestión Académica",
+      "description": "Modernización del sistema de gestión de estudiantes y cursos",
+      "status": "En Progreso",
+      "progress": 65,
+      "startDate": "2024-01-15",
+      "endDate": "2024-06-30",
+      "priority": "Alta",
+      "manager": "Carlos Mendoza",
+      "team": ["Ana García", "Luis Torres", "María Silva"],
+      "tasks": {
+        "completed": 13,
+        "inProgress": 5,
+        "pending": 7,
+        "total": 25
+      },
+      "budget": {
+        "allocated": 150000,
+        "spent": 97500,
+        "remaining": 52500
+      }
+    },
+    {
+      "id": 2,
+      "name": "Portal de Servicios Estudiantiles",
+      "description": "Plataforma web para servicios estudiantiles integrados",
+      "status": "Planificación",
+      "progress": 25,
+      "startDate": "2024-03-01",
+      "endDate": "2024-09-15",
+      "priority": "Media",
+      "manager": "Carlos Mendoza",
+      "team": ["Pedro Ramírez", "Sofía López"],
+      "tasks": {
+        "completed": 3,
+        "inProgress": 2,
+        "pending": 12,
+        "total": 17
+      },
+      "budget": {
+        "allocated": 80000,
+        "spent": 20000,
+        "remaining": 60000
+      }
+    }
+  ],
+  "admin": [
+    {
+      "id": 1,
+      "name": "Sistema de Gestión Académica",
+      "description": "Modernización del sistema de gestión de estudiantes y cursos",
+      "status": "En Progreso",
+      "progress": 65,
+      "startDate": "2024-01-15",
+      "endDate": "2024-06-30",
+      "priority": "Alta",
+      "manager": "Carlos Mendoza",
+      "team": ["Ana García", "Luis Torres", "María Silva"],
+      "tasks": {
+        "completed": 13,
+        "inProgress": 5,
+        "pending": 7,
+        "total": 25
+      },
+      "budget": {
+        "allocated": 150000,
+        "spent": 97500,
+        "remaining": 52500
+      }
+    },
+    {
+      "id": 2,
+      "name": "Portal de Servicios Estudiantiles",
+      "description": "Plataforma web para servicios estudiantiles integrados",
+      "status": "Planificación",
+      "progress": 25,
+      "startDate": "2024-03-01",
+      "endDate": "2024-09-15",
+      "priority": "Media",
+      "manager": "Carlos Mendoza",
+      "team": ["Pedro Ramírez", "Sofía López"],
+      "tasks": {
+        "completed": 3,
+        "inProgress": 2,
+        "pending": 12,
+        "total": 17
+      },
+      "budget": {
+        "allocated": 80000,
+        "spent": 20000,
+        "remaining": 60000
+      }
+    },
+    {
+      "id": 3,
+      "name": "Infraestructura Cloud",
+      "description": "Migración de servicios a infraestructura en la nube",
+      "status": "En Progreso",
+      "progress": 80,
+      "startDate": "2023-10-01",
+      "endDate": "2024-04-30",
+      "priority": "Crítica",
+      "manager": "Roberto Silva",
+      "team": ["Diego Morales", "Carmen Ruiz", "Javier Núñez", "Valentina Castro"],
+      "tasks": {
+        "completed": 24,
+        "inProgress": 3,
+        "pending": 3,
+        "total": 30
+      },
+      "budget": {
+        "allocated": 200000,
+        "spent": 160000,
+        "remaining": 40000
+      }
+    },
+    {
+      "id": 4,
+      "name": "Sistema de Seguridad Cibernética",
+      "description": "Implementación de medidas de seguridad avanzadas",
+      "status": "Iniciado",
+      "progress": 15,
+      "startDate": "2024-02-01",
+      "endDate": "2024-12-31",
+      "priority": "Crítica",
+      "manager": "Elena Vargas",
+      "team": ["Andrés Moreno", "Lucía Fernández"],
+      "tasks": {
+        "completed": 2,
+        "inProgress": 4,
+        "pending": 14,
+        "total": 20
+      },
+      "budget": {
+        "allocated": 120000,
+        "spent": 18000,
+        "remaining": 102000
+      }
+    },
+    {
+      "id": 5,
+      "name": "Automatización de Procesos",
+      "description": "Automatización de procesos administrativos internos",
+      "status": "Completado",
+      "progress": 100,
+      "startDate": "2023-08-01",
+      "endDate": "2024-01-15",
+      "priority": "Media",
+      "manager": "Patricia Herrera",
+      "team": ["Miguel Ángel", "Isabella Torres"],
+      "tasks": {
+        "completed": 15,
+        "inProgress": 0,
+        "pending": 0,
+        "total": 15
+      },
+      "budget": {
+        "allocated": 90000,
+        "spent": 85000,
+        "remaining": 5000
+      }
+    },
+    {
+      "id": 6,
+      "name": "Plataforma de E-Learning",
+      "description": "Desarrollo de plataforma educativa virtual avanzada",
+      "status": "En Progreso",
+      "progress": 45,
+      "startDate": "2024-01-10",
+      "endDate": "2024-08-30",
+      "priority": "Alta",
+      "manager": "Fernando Castillo",
+      "team": ["Camila Soto", "Rodrigo Vega", "Francisca Muñoz"],
+      "tasks": {
+        "completed": 9,
+        "inProgress": 6,
+        "pending": 10,
+        "total": 25
+      },
+      "budget": {
+        "allocated": 180000,
+        "spent": 81000,
+        "remaining": 99000
+      }
+    }
+  ]
+}

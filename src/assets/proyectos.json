@@ -1,0 +1,45 @@
+[
+    {
+      "id": 1,
+      "name": "Proyecto A",
+      "status": "En Progreso",
+      "progress": 65,
+      "teamMembers": ["Juan", "Pedro", "Ana"]
+    },
+    {
+      "id": 2,
+      "name": "Proyecto B",
+      "status": "Finalizado",
+      "progress": 100,
+      "teamMembers": ["Carlos", "María"]
+    },
+    {
+      "id": 3,
+      "name": "Proyecto C",
+      "status": "En Espera",
+      "progress": 20,
+      "teamMembers": ["Luis", "Sofia"]
+    },
+    {
+      "id": 4,
+      "name": "Proyecto D",
+      "status": "En Progreso",
+      "progress": 40,
+      "teamMembers": ["Elena", "José"]
+    },
+    {
+      "id": 5,
+      "name": "Proyecto E",
+      "status": "En Progreso",
+      "progress": 80,
+      "teamMembers": ["David", "Laura"]
+    },
+    {
+      "id": 6,
+      "name": "Proyecto F",
+      "status": "Finalizado",
+      "progress": 100,
+      "teamMembers": ["Ricardo", "Patricia"]
+    }
+  ]
+  

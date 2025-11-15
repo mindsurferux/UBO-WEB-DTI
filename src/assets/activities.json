@@ -1,0 +1,21 @@
+[
+    {
+      "projectId": 1,
+      "activity": "Revisión de avances con el equipo",
+      "date": "2023-11-10",
+      "status": "Completado"
+    },
+    {
+      "projectId": 2,
+      "activity": "Entrega de resultados finales",
+      "date": "2023-10-25",
+      "status": "Completado"
+    },
+    {
+      "projectId": 3,
+      "activity": "Evaluación de recursos necesarios",
+      "date": "2023-11-12",
+      "status": "Pendiente"
+    }
+  ]
+  

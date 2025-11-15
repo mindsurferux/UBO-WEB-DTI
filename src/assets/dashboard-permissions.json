@@ -1,0 +1,27 @@
+{
+  "user": {
+    "allowedViews": ["overview", "tasks"],
+    "canEdit": false,
+    "projectCount": 2,
+    "features": {
+      "calendar": false,
+      "gantt": false,
+      "reports": false,
+      "teamManagement": false,
+      "budgetView": false
+    }
+  },
+  "admin": {
+    "allowedViews": ["overview", "tasks", "calendar", "gantt", "reports", "team"],
+    "canEdit": true,
+    "projectCount": 6,
+    "features": {
+      "calendar": true,
+      "gantt": true,
+      "reports": true,
+      "teamManagement": true,
+      "budgetView": true,
+      "userPermissions": true
+    }
+  }
+}

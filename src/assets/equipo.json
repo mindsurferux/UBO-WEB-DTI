@@ -1,0 +1,72 @@
+[
+  {
+    "id": 1,
+    "name": "Jonathan Morales Sandoval",
+    "role": "Director de TI",
+    "image": "/img/usuarios/user-placeholder.webp",
+    "email": "jmorales@ejemplo.com",
+    "phone": "555-1234",
+    "department": "Tecnologías de la Información",
+    "description": "Encargado de la planificación estratégica de los sistemas informáticos. Especialista en ciberseguridad y redes."
+  },
+  {
+    "id": 2,
+    "name": "Ana María López",
+    "role": "Jefa de Proyectos",
+    "image": "/img/usuarios/user-placeholder.webp",
+    "email": "amlopez@ejemplo.com",
+    "phone": "555-5678",
+    "department": "Proyectos y Desarrollo",
+    "description": "Coordina los diferentes proyectos de TI asegurando la entrega a tiempo y la calidad de los resultados."
+  },
+  {
+    "id": 3,
+    "name": "Víctor Amaya Quezada",
+    "role": "Jefe de Redes",
+    "image": "/img/usuarios/user-placeholder.webp",
+    "email": "vamaya@ejemplo.com",
+    "phone": "555-9101",
+    "department": "Infraestructura y Redes",
+    "description": "Responsable de la arquitectura de redes y la optimización de la infraestructura tecnológica."
+  },
+  {
+    "id": 4,
+    "name": "Bastian Palma Urra",
+    "role": "Jefe de Soporte",
+    "image": "/img/usuarios/user-placeholder.webp",
+    "email": "bpalma@ejemplo.com",
+    "phone": "555-1122",
+    "department": "Soporte y Mantenimiento",
+    "description": "Lidera el equipo de soporte técnico, asegurando la resolución de incidencias de manera eficiente."
+  },
+  {
+    "id": 5,
+    "name": "Carolina Rojas",
+    "role": "Analista Funcional",
+    "image": "/img/usuarios/user-placeholder.webp",
+    "email": "crojas@ejemplo.com",
+    "phone": "555-1314",
+    "department": "Analítica y Business Intelligence",
+    "description": "Identifica los requerimientos de los usuarios y traduce las necesidades del negocio en soluciones tecnológicas."
+  },
+  {
+    "id": 6,
+    "name": "Pedro Fuentes",
+    "role": "Desarrollador Fullstack",
+    "image": "/img/usuarios/user-placeholder.webp",
+    "email": "pfuentes@ejemplo.com",
+    "phone": "555-1516",
+    "department": "Desarrollo y Arquitectura",
+    "description": "Desarrolla e implementa aplicaciones web y móviles, supervisando la integración de sistemas."
+  },
+  {
+    "id": 7,
+    "name": "Lucía González",
+    "role": "Diseñadora UX/UI",
+    "image": "/img/usuarios/user-placeholder.webp",
+    "email": "lgonzalez@ejemplo.com",
+    "phone": "555-1718",
+    "department": "Diseño e Innovación",
+    "description": "Responsable de la experiencia de usuario, creando interfaces amigables y eficientes."
+  }
+]

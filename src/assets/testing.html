@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <title>Hero Mockup</title>
+  <style>
+    /* Reinicio básico de márgenes/padding */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      margin-top: 100px;
+    }
+
+    /* Contenedor general del Hero */
+    .hero {
+      width: 100%;
+      background-color: #f3f3f3;
+      position: relative;       /* para posicionar la imagen */
+      padding: 2rem;           /* espacio alrededor del texto */
+      overflow: visible;       /* para que la imagen pueda "salir" */
+    }
+
+    /* Contenido textual del Hero */
+    .hero-content {
+      max-width: 1200px;       /* ancho máximo para el texto */
+      margin: 0 auto;          /* centra el bloque textual */
+    }
+
+    .hero-title {
+      font-size: 2rem;
+      font-weight: bold;
+      margin-bottom: 1rem;
+    }
+
+    .hero-description {
+      font-size: 1rem;
+      margin-bottom: 1.5rem;
+      line-height: 1.5;
+    }
+
+    .hero-link {
+      display: inline-block;
+      padding: 0.75rem 1.5rem;
+      background-color: #007BFF;
+      color: #ffffff;
+      text-decoration: none;
+      border-radius: 4px;
+    }
+
+    /* Imagen que “sale” del banner */
+    .hero-image {
+      position: absolute;   /* permite sacarla del flujo y colocarla arriba/derecha */
+      top: -40px;           /* la “empuja” hacia arriba para sobresalir */
+      right: 0;             /* alinea el borde derecho con el extremo de la página */
+      max-width: 600px;     /* límite de ancho para la imagen */
+      border-radius: 12px;  /* esquinas redondeadas */
+    }
+
+    /* Para evitar que la imagen se corte abajo, 
+       damos algo más de espacio al contenedor */
+    .hero {
+      padding-bottom: 5rem; /* ajusta según el alto de la imagen */
+    }
+  </style>
+</head>
+<body>
+
+  <div class="hero ">
+    <div class="hero-content">
+      <h1 class="hero-title">Innovador sistema de inteligencia artificial</h1>
+      <p class="hero-description">
+        Un equipo de estudiantes de ingeniería informática creó un modelo de IA 
+        capaz de optimizar procesos industriales, reduciendo costos hasta en un 30%.
+      </p>
+      <a href="#" class="hero-link">Ver noticia</a>
+    </div>
+
+    <!-- Sustituye 'mockup-image.jpg' por tu imagen real -->
+    <img 
+      class="hero-image" 
+      src="https://placehold.co/350x200?text=Ciberseguridad" 
+      alt="Sistema de IA" 
+    />
+  </div>
+
+</body>
+</html>

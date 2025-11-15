@@ -1,0 +1,13 @@
+[
+    {
+      "username": "user@ubo.cl",
+      "password": "user123",
+      "role": "user"
+    },
+    {
+      "username": "admin@ubo.cl",
+      "password": "admin123",
+      "role": "admin"
+    }
+  ]
+  
