@@ -1,10 +1,12 @@
-# UBO TI App 1.8
+# UBO DTI Portal Web - Etapa 1 (Frontend)
 
 Portal web institucional de la **Dirección de Tecnología de la Información (DTI)** de la Universidad Bernardo O'Higgins (UBO).
 
+> **Nota**: Esta es la **Etapa 1** del desarrollo, que incluye únicamente el frontend desarrollado en Vue.js. Las funcionalidades de backend, base de datos y APIs serán implementadas en etapas posteriores como una etapa 2.
+
 ## 📋 Descripción
 
-Aplicación web moderna desarrollada en Vue.js 3 que permite gestionar proyectos TI, visualizar métricas operativas y proporcionar información sobre los servicios tecnológicos de la universidad.
+**Etapa 1 - Frontend**: Aplicación web moderna desarrollada en Vue.js 3 que presenta la interfaz de usuario para gestionar proyectos TI, visualizar métricas operativas y proporcionar información sobre los servicios tecnológicos de la universidad. En esta etapa inicial, los datos son manejados localmente mediante JSON y localStorage.
 
 ## 🎯 Objetivos
 
@@ -149,20 +151,22 @@ Los proyectos se gestionan a través de:
 
 ## 📈 Estado del Proyecto
 
-### ✅ Completado
+### ✅ Etapa 1 - Frontend Completado
 - Estructura base Vue.js 3
 - Sistema de navegación completo
 - Dashboard con gráficos interactivos
-- CRUD de proyectos funcional
-- Autenticación básica
+- CRUD de proyectos funcional (datos locales)
+- Autenticación básica (frontend only)
 - Diseño responsive
-- Configuración Firebase
+- Configuración Firebase Hosting
+- Interfaz de usuario completa
 
 ### ⚠️ En Desarrollo
-- Mesa de ayuda TI (funcionalidad completa)
+- Configuración en Angular y Laravel
 - Integración con backend
-- Funcionalidad de búsqueda avanzada
-- Datos dinámicos de tickets en tiempo real
+- Autenticación real
+- Base de datos
+- APIs REST 
 
 ## 👥 Contribución
 
