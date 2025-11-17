@@ -3,7 +3,7 @@
     <div class="container">
       <!-- Logo -->
       <router-link to="/" class="navbar-brand">
-        <img src="/img/logos/logo-ubo-color.png" alt="Logo UBO" style="height: 60px;" />
+        <img src="/img/logos/logo-ubo-color.webp" alt="Logo UBO" style="height: 60px;" />
       </router-link>
 
       <!-- Botón hamburguesa en móvil -->

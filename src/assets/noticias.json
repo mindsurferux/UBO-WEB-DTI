@@ -8,9 +8,9 @@
     "date": "26 de Septiembre de 2025",
     "category": "Ciberseguridad",
     "tags": ["Phishing", "Ciberseguridad", "Correo Electrónico", "Prevención"],
-    "image": "/img/noticias/noticia-1-banner.png",
-    "listImage": "/img/noticias/noticia-1-resumen.png",
-    "sidebarImage": "/img/noticias/noticia-1-vertical.png",
+    "image": "/img/noticias/noticia-1-banner.webp",
+    "listImage": "/img/noticias/noticia-1-resumen.webp",
+    "sidebarImage": "/img/noticias/noticia-1-vertical.webp",
     "orientation": "right",
     "buttonText": "Ver noticia"
   },
@@ -23,9 +23,9 @@
     "date": "26 de Septiembre de 2025",
     "category": "Ciberseguridad",
     "tags": ["Phishing", "Suplantación", "Fraude", "Prevención"],
-    "image": "/img/noticias/noticia-2-banner.png",
-    "listImage": "/img/noticias/noticia-2-resumen.png",
-    "sidebarImage": "/img/noticias/noticia-2-vertical.png",
+    "image": "/img/noticias/noticia-2-banner.webp",
+    "listImage": "/img/noticias/noticia-2-resumen.webp",
+    "sidebarImage": "/img/noticias/noticia-2-vertical.webp",
     "orientation": "left",
     "buttonText": "Ver noticia"
   },
@@ -38,9 +38,9 @@
     "date": "26 de Septiembre de 2025",
     "category": "Ciberseguridad",
     "tags": ["Asesoría", "Servicio Gratuito", "Consultoría", "Prevención"],
-    "image": "/img/noticias/noticia-3-banner.png",
-    "listImage": "/img/noticias/noticia-3-resumen.png",
-    "sidebarImage": "/img/noticias/noticia-3-vertical.png",
+    "image": "/img/noticias/noticia-3-banner.webp",
+    "listImage": "/img/noticias/noticia-3-resumen.webp",
+    "sidebarImage": "/img/noticias/noticia-3-vertical.webp",
     "orientation": "left",
     "buttonText": "Ver noticia"
   }
