@@ -9,7 +9,7 @@
 
       <!-- Banner de ancho completo -->
       <div class="banner">
-        <img src="/img/banners/banner-ciberseguridad.webp" alt="Banner Consejos" class="img-fluid" />
+        <img src="/img/banners/banner-consejos.webp" alt="Banner Consejos" class="img-fluid" />
       </div>
     </div>
 

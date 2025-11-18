@@ -328,7 +328,7 @@ onUnmounted(() => {
   font-family: 'DM Sans', sans-serif;
   font-weight: 600;
   font-size: 1.1rem;
-  color: #2c3e50;
+  color: $primary-color;
   margin-bottom: 0.5rem;
   line-height: 1.3;
   opacity: 0.7;
@@ -346,7 +346,7 @@ onUnmounted(() => {
   
   p {
     font-size: 0.9rem;
-    color: #666;
+    color: $primary-color;
     line-height: 1.5;
     text-align: left;
     margin: 0;

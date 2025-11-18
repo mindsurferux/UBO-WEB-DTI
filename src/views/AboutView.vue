@@ -165,12 +165,14 @@ export default {
 .content h3 {
   font-size: 1.5rem;
   font-weight: bold;
+  color: $primary-color;
 }
 
 .content p {
   font-size: 1rem;
   line-height: 1.5;
   margin-bottom: 1rem;
+  color: $primary-color;
 }
 
 /* Botón de texto plegable */

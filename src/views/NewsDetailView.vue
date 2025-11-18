@@ -266,7 +266,7 @@ export default {
 .lead-paragraph {
   font-size: 1.05rem;
   line-height: 1.7;
-  color: #333;
+  color: $primary-color;
   font-weight: 400;
   margin-bottom: 25px;
   padding: 0;
@@ -279,7 +279,7 @@ export default {
 .full-content {
   font-size: 0.95rem;
   line-height: 1.8;
-  color: #333;
+  color: $primary-color;
   font-family: 'Roboto', sans-serif;
   
   :deep(p) {
@@ -411,8 +411,9 @@ export default {
   margin-bottom: 12px;
   font-size: 0.95rem;
   line-height: 1.6;
-  color: #333;
+  color: $primary-color;
   font-family: 'Roboto', sans-serif;
+  text-align: left;
   
   strong {
     color: $primary-color;

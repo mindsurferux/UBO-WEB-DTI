@@ -2,22 +2,22 @@
   {
     "id": 1,
     "title": "Desconfía de mensajes urgentes o amenazantes",
-    "description": "Las instituciones legítimas no piden acciones inmediatas ni envían amenazas por correo. Si recibes un mensaje urgente, verifica directamente con la organización a través de canales oficiales antes de actuar.",
+    "description": "Las instituciones legítimas no piden acciones inmediatas ni envían amenazas por correo.",
     "image": "/img/consejos/consejo-1-mensajes-urgentes.webp",
     "category": "Comunicaciones"
   },
   {
     "id": 2,
-    "title": "Cuidado con las ofertas demasiado buenas",
-    "description": "Premios, herencias o beneficios inesperados suelen ser fraudes. Las ofertas que parecen demasiado buenas para ser verdad generalmente lo son. Desconfía de descuentos extremos o promociones sospechosas.",
-    "image": "/img/consejos/consejo-2-ofertas-buenas.webp",
-    "category": "Compras Online"
+    "title": "No compartas información sensible",
+    "description": "Nunca entregues contraseñas, datos bancarios o personales a través de correos o enlaces sospechosos.",
+    "image": "/img/consejos/consejo-3-info-sensible.webp",
+    "category": "Datos Personales"
   },
   {
     "id": 3,
-    "title": "No compartas información sensible",
-    "description": "Nunca entregues contraseñas, datos bancarios o información personal a través de correos electrónicos, mensajes de texto o llamadas no solicitadas. Las instituciones serias nunca solicitan esta información por estos medios.",
-    "image": "/img/consejos/consejo-3-info-sensible.webp",
-    "category": "Datos Personales"
+    "title": "Cuidado con las ofertas demasiado buenas",
+    "description": "Premios, herencias o beneficios inesperados suelen ser fraudes.",
+    "image": "/img/consejos/consejo-2-ofertas-buenas.webp",
+    "category": "Compras Online"
   }
 ]

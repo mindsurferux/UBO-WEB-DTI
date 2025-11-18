@@ -170,7 +170,6 @@ function prevSlide() {
   padding: 2rem 1.5rem 0rem 2rem;
   display: flex;
   flex-direction: column; /* Para acomodar flechas y botón login abajo */
-  justify-content: space-between;
   min-height: 400px;
 
 }
@@ -180,21 +179,23 @@ function prevSlide() {
   font-size: 1.5rem;
   color: #0d2c5b; /* Ajusta al color corporativo */
   margin-bottom: 0.5rem;
+  text-align: left;
 }
 
 .description {
   font-size: 1rem;
-  color: #4a4a4a;
-  margin-bottom: 0;
-  /* line-height si quieres más espacio entre líneas */
+  color: $primary-color;
+  margin-bottom: auto;
+  text-align: left;
   padding-bottom: 1rem;
 }
 
-/* Footer con flechas y botón “Login” en la misma fila */
+/* Footer con flechas y botón "Login" en la misma fila */
 .content-footer {
   display: flex;
   align-items: flex-end; 
   justify-content: space-between; /* O space-between si quieres separarlos */
+  margin-top: auto;
 }
 
 
