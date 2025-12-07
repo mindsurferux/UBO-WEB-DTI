@@ -11,7 +11,16 @@
 
       <!-- Imagen principal con slider -->
       <div class="hero-image-container position-relative">
-        <img :src="heroSlides[currentSlideIndex].image" :alt="heroSlides[currentSlideIndex].title" class="img-fluid hero-image" />
+        <!-- Indicador de carga sutil -->
+        <div v-if="isTransitioning" class="loading-indicator">
+          <div class="spinner"></div>
+        </div>
+        <img 
+          :src="heroSlides[currentSlideIndex].image" 
+          :alt="heroSlides[currentSlideIndex].title" 
+          class="img-fluid hero-image"
+          :class="{ 'image-loaded': imagesLoaded[currentSlideIndex] }"
+        />
 
         <!-- Pestañas en el pie de la imagen con contenido dinámico -->
         <div class="hero-tabs">
@@ -111,10 +120,13 @@ export default {
         ticketsResueltos: 0,
         fechaActualizacion: ''
       },
-      isLoadingIndicadores: true
+      isLoadingIndicadores: true,
+      imagesLoaded: [],
+      isTransitioning: false
     }
   },
   mounted() {
+    this.preloadImages()
     this.startAutoSlide()
     this.loadIndicadores()
     this.setupTouchEvents()
@@ -124,12 +136,77 @@ export default {
     this.removeTouchEvents()
   },
   methods: {
+    // Precarga todas las imágenes del carrusel
+    preloadImages() {
+      this.heroSlides.forEach((slide, index) => {
+        const img = new Image()
+        img.onload = () => {
+          this.imagesLoaded[index] = true
+          // Si es la primera imagen, forzar re-render
+          if (index === 0) {
+            this.$forceUpdate()
+          }
+        }
+        img.onerror = () => {
+          console.error(`Error cargando imagen: ${slide.image}`)
+          this.imagesLoaded[index] = true // Marcar como cargada para no bloquear
+          if (index === 0) {
+            this.$forceUpdate()
+          }
+        }
+        img.src = slide.image
+      })
+    },
     goToSlide(index) {
-      this.currentSlideIndex = index
-      this.resetAutoSlide()
+      if (this.isTransitioning) return
+      this.changeSlide(index)
     },
     nextSlide() {
-      this.currentSlideIndex = (this.currentSlideIndex + 1) % this.heroSlides.length
+      if (this.isTransitioning) return
+      const nextIndex = (this.currentSlideIndex + 1) % this.heroSlides.length
+      this.changeSlide(nextIndex)
+    },
+    // Método centralizado para cambiar slides con verificación de carga
+    changeSlide(targetIndex) {
+      if (this.isTransitioning) return
+      
+      // Marcar la imagen actual como no cargada para hacer fade out
+      this.imagesLoaded[this.currentSlideIndex] = false
+      
+      // Si la imagen destino ya está cargada
+      if (this.imagesLoaded[targetIndex]) {
+        setTimeout(() => {
+          this.currentSlideIndex = targetIndex
+          this.imagesLoaded[targetIndex] = true
+          this.resetAutoSlide()
+        }, 300) // Esperar el fade out
+        return
+      }
+      
+      // Si no está cargada, esperar a que se cargue
+      this.isTransitioning = true
+      const img = new Image()
+      
+      img.onload = () => {
+        setTimeout(() => {
+          this.imagesLoaded[targetIndex] = true
+          this.currentSlideIndex = targetIndex
+          this.isTransitioning = false
+          this.resetAutoSlide()
+        }, 300) // Esperar el fade out
+      }
+      
+      img.onerror = () => {
+        console.error(`Error cargando imagen: ${this.heroSlides[targetIndex].image}`)
+        setTimeout(() => {
+          this.imagesLoaded[targetIndex] = true
+          this.currentSlideIndex = targetIndex
+          this.isTransitioning = false
+          this.resetAutoSlide()
+        }, 300)
+      }
+      
+      img.src = this.heroSlides[targetIndex].image
     },
     startAutoSlide() {
       this.autoSlideInterval = setInterval(() => {
@@ -181,11 +258,11 @@ export default {
       this.touchEndX = 0
     },
     prevSlide() {
-      if (this.currentSlideIndex > 0) {
-        this.currentSlideIndex--
-      } else {
-        this.currentSlideIndex = this.heroSlides.length - 1
-      }
+      if (this.isTransitioning) return
+      const prevIndex = this.currentSlideIndex > 0 
+        ? this.currentSlideIndex - 1 
+        : this.heroSlides.length - 1
+      this.changeSlide(prevIndex)
     },
     setupTouchEvents() {
       const heroImage = document.querySelector('.hero-image-container')
@@ -305,7 +382,34 @@ export default {
   /* recorta la imagen para llenar el contenedor */
   display: block;
   border-radius: 12px;
+  opacity: 0;
   transition: opacity 0.5s ease-in-out;
+}
+
+.hero-image.image-loaded {
+  opacity: 1;
+}
+
+/* Indicador de carga */
+.loading-indicator {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 10;
+}
+
+.spinner {
+  width: 40px;
+  height: 40px;
+  border: 3px solid rgba(255, 255, 255, 0.3);
+  border-top-color: #1ea3e1;
+  border-radius: 50%;
+  animation: spin 0.8s linear infinite;
+}
+
+@keyframes spin {
+  to { transform: rotate(360deg); }
 }
 
 
