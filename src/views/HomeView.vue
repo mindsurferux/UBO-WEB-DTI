@@ -5,8 +5,8 @@
     <section class="hero-section container mb-3">
       <!-- Encabezado -->
       <div class="hero-header">
-        <h1 class="hero-title">Nuestros proyectos TI</h1>
-        <p class="hero-subtitle">destacados este año 2024</p>
+        <h1 class="hero-title">UBO DTI</h1>
+        <p class="hero-subtitle">Nuestro año 2025</p>
       </div>
 
       <!-- Imagen principal con slider -->
