@@ -56,7 +56,7 @@ const consejos = ref(consejosData)
   text-align: left;
   
   h2 {
-    font-family: 'DM Sans', sans-serif;
+    font-family: Roboto;
     font-weight: 700;
     font-size: 2.5rem;
     color: $primary-color;
@@ -66,12 +66,7 @@ const consejos = ref(consejosData)
       font-size: 1.8rem;
     }
   }
-  
-  p {
-    font-size: 1.1rem;
-    color: #666;
-    font-weight: 300;
-  }
+   
 }
 
 // Banner styles (reutilizando estilos existentes del proyecto)
