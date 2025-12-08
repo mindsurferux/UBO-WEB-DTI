@@ -43,5 +43,20 @@
     "sidebarImage": "/img/noticias/noticia-3-vertical.webp",
     "orientation": "left",
     "buttonText": "Ver noticia"
+  },
+  {
+    "id": 4,
+    "title": "¿Recibió un correo sospechoso? Especialistas ofrecen asesoría gratuita",
+    "description": "La Dirección de Tecnologías de la Información de la UBO ofrece asesoría gratuita para analizar correos sospechosos y prevenir incidentes de seguridad.",
+    "fullContent": "¿Recibió un correo sospechoso? Especialistas ofrecen asesoría gratuita\n\nEn un mundo digital donde las amenazas son cada vez más sofisticadas,\ntener dudas es sinónimo de prudencia. La Dirección de Tecnologías de la\nInformación de la UBO refuerza su compromiso con la comunidad y recuerda\nque su equipo de especialistas está disponible para brindar **asesoría\ngratuita** en materia de ciberseguridad a todos los colaboradores y\nestudiantes.\n\n**¿Cuándo y cómo contactarnos?**\n\nUsted debe sospechar y contactarnos si un correo o mensaje presenta\ncualquiera de las **7 Banderas Rojas del Phishing** (lenguaje urgente,\nsolicitud de datos, premios sospechosos, etc.). No es necesario estar\nseguro; ante la duda, es mejor preguntar.\n\n**Procedimiento para reportar un incidente**:\n\n-   NO interactúe con el mensaje: No haga clic en enlaces, no descargue\n    adjuntos y no responda.\n\n-   Reenvíe el correo sospechoso como adjunto a nuestra casilla oficial:\n    CIBERSEGURIDAD@UBO.CL. Esto nos permite analizar los encabezados del mensaje para\n    determinar su autenticidad.\n\n-   Si es un mensaje de texto (SMS), tome una captura de pantalla y\n    envíela al mismo correo.\n\n-   En el cuerpo del mensaje, describa brevemente por qué le parece\n    sospechoso.\n\n**Nuestros servicios de asesoría incluyen**:\n\n-   Análisis gratuito de correos dudosos.\n\n-   Verificación de la legitimidad de enlaces y archivos.\n\n-   Capacitaciones grupales o individuales sobre reconocimiento de\n    phishing.\n\n-   Asistencia en caso de haber comprometido información sensible.\n\n\"El error más común es subestimar una sospecha. Recibimos cientos de\nconsultas al mes y, en muchos casos, logramos prevenir un incidente\nmayor gracias a que un usuario decidió preguntar primero. Ese es el\ncomportamiento que queremos fomentar\", afirma Ana Fernández, Jefa de la\nMesa de Ayuda TI.\n\n**No subestime su intuición. Su duda puede prevenir un\nataque**.\nContacto oficial: CIBERSEGURIDAD@UBO.CL\n\nFuentes citadas:\n\n1.  Dirección de Tecnologías de la Información UBD: Reporte Anual de\n    Incidentes de Seguridad (2023).\n\n2.  SANS Institute: \"Human Factors in Phishing Attacks: Why Training\n    Matters\".\n\n3.  Cisco Annual Cybersecurity Report: \"The Role of User Awareness in\n    Mitigating Social Engineering Attacks\".",
+    "author": "UBO - DTI",
+    "date": "26 de Septiembre de 2025",
+    "category": "Ciberseguridad",
+    "tags": ["Asesoría", "Servicio Gratuito", "Consultoría", "Prevención"],
+    "image": "/img/noticias/noticia-3-banner.webp",
+    "listImage": "/img/noticias/noticia-3-resumen.webp",
+    "sidebarImage": "/img/noticias/noticia-3-vertical.webp",
+    "orientation": "right",
+    "buttonText": "Ver noticia"
   }
 ]

@@ -44,7 +44,7 @@ estratégicos y las demandas específicas de la Universidad.
       </div>
     </div>
 
-    <!-- Sección equipo 
+    <!-- Sección equipo -->
      
     
         <div class="equipo">
@@ -62,7 +62,7 @@ estratégicos y las demandas específicas de la Universidad.
           </button>
         </div>
       
-         Modal FichaExpandida 
+        <!-- Modal FichaExpandida -->
         
         <FichaExpandida
           :user="selectedUser"
@@ -70,7 +70,7 @@ estratégicos y las demandas específicas de la Universidad.
           @close="isModalVisible = false"
         />
         
-       -->
+       
         <br><br><br><br></br>
   </div>
 </template>

@@ -32,7 +32,12 @@
   <!-- Resto de noticias (formato anterior) -->
 
   <div class="news-container container">
-    <Noticia v-for="news in otherNews" :key="news.id" :item="news" @openModal="showConstructionModal" />
+    <Noticia 
+      v-for="(news, index) in otherNews" 
+      :key="news.id" 
+      :item="getNewsWithOrientation(news, index)" 
+      @openModal="showConstructionModal" 
+    />
   </div>
 
 
@@ -69,6 +74,13 @@ export default {
   methods: {
     showConstructionModal() {
       this.showModal = true
+    },
+    getNewsWithOrientation(news, index) {
+      // Alterna la orientación: índice par = left (0,2,4...), índice impar = right (1,3,5...)
+      return {
+        ...news,
+        orientation: index % 2 === 0 ? 'left' : 'right'
+      }
     }
   }
 }
